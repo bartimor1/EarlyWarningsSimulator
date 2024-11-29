@@ -1,0 +1,95 @@
+{
+  "sim_scenarios": [
+    {
+      "name": "baseline_scenario",
+      "Description": "TC 1 - Normal scenario, baseline for all performance degradations.",
+      "random_seed": 10,
+      "high_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "high_level_op_failure_probability": 0,
+      "low_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "low_level_op_failure_probability": 0,
+      "under_performance_factor_Comment": "[Values: 1-Inf] What is the maximum factor in throughput increase for atomic operations",
+      "under_performance_factor": 1,
+      "enable_path_changes_comment": "[Values: 0, 1] When set to 1, enable path changes.",
+      "enable_path_changes": 0,
+      "task_over_performance_factor_comment": "[Values: 1-Inf] - Factor of performance improvement for `maintenance tasks`. Maintenance tasks time is divided by this factor",
+      "task_over_performance_factor": 1
+    },
+    {
+      "name": "no_degradation_different_seed",
+      "Description": "TC 27 - Normal scenario",
+      "random_seed": 15,
+      "high_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "high_level_op_failure_probability": 0,
+      "low_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "low_level_op_failure_probability": 0,
+      "under_performance_factor_Comment": "[Values: 1-Inf] What is the maximum factor in throughput increase for atomic operations",
+      "under_performance_factor": 1,
+      "enable_path_changes_comment": "[Values: 0, 1] When set to 1, enable path changes.",
+      "enable_path_changes": 0,
+      "task_over_performance_factor_comment": "[Values: 1-Inf] - Factor of performance improvement for `maintenance tasks`. Maintenance tasks time is divided by this factor",
+      "task_over_performance_factor": 1
+    },
+    {
+      "name": "no_degradation_different_seed",
+      "Description": "TC 28 - Normal scenario",
+      "random_seed": 20,
+      "high_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "high_level_op_failure_probability": 0,
+      "low_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "low_level_op_failure_probability": 0,
+      "under_performance_factor_Comment": "[Values: 1-Inf] What is the maximum factor in throughput increase for atomic operations",
+      "under_performance_factor": 1,
+      "enable_path_changes_comment": "[Values: 0, 1] When set to 1, enable path changes.",
+      "enable_path_changes": 0,
+      "task_over_performance_factor_comment": "[Values: 1-Inf] - Factor of performance improvement for `maintenance tasks`. Maintenance tasks time is divided by this factor",
+      "task_over_performance_factor": 1
+    },
+    {
+      "name": "no_degradation_different_seed",
+      "Description": "TC 29 - Normal scenario",
+      "random_seed": 25,
+      "high_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "high_level_op_failure_probability": 0,
+      "low_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "low_level_op_failure_probability": 0,
+      "under_performance_factor_Comment": "[Values: 1-Inf] What is the maximum factor in throughput increase for atomic operations",
+      "under_performance_factor": 1,
+      "enable_path_changes_comment": "[Values: 0, 1] When set to 1, enable path changes.",
+      "enable_path_changes": 0,
+      "task_over_performance_factor_comment": "[Values: 1-Inf] - Factor of performance improvement for `maintenance tasks`. Maintenance tasks time is divided by this factor",
+      "task_over_performance_factor": 1
+    },
+    {
+      "name": "no_degradation_different_seed",
+      "Description": "TC 30 - Normal scenario",
+      "random_seed": 30,
+      "high_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "high_level_op_failure_probability": 0,
+      "low_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "low_level_op_failure_probability": 0,
+      "under_performance_factor_Comment": "[Values: 1-Inf] What is the maximum factor in throughput increase for atomic operations",
+      "under_performance_factor": 1,
+      "enable_path_changes_comment": "[Values: 0, 1] When set to 1, enable path changes.",
+      "enable_path_changes": 0,
+      "task_over_performance_factor_comment": "[Values: 1-Inf] - Factor of performance improvement for `maintenance tasks`. Maintenance tasks time is divided by this factor",
+      "task_over_performance_factor": 1
+    },
+    {
+      "name": "no_degradation_different_seed",
+      "Description": "TC 31 - Normal scenario",
+      "random_seed": 35,
+      "high_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "high_level_op_failure_probability": 0,
+      "low_level_op_failure_probability_Comment": "[Values: 0-1] Set probability to zero if you want to disable this feature",
+      "low_level_op_failure_probability": 0,
+      "under_performance_factor_Comment": "[Values: 1-Inf] What is the maximum factor in throughput increase for atomic operations",
+      "under_performance_factor": 1,
+      "enable_path_changes_comment": "[Values: 0, 1] When set to 1, enable path changes.",
+      "enable_path_changes": 0,
+      "task_over_performance_factor_comment": "[Values: 1-Inf] - Factor of performance improvement for `maintenance tasks`. Maintenance tasks time is divided by this factor",
+      "task_over_performance_factor": 1
+    }
+
+  ]
+}
